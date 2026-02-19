@@ -1,36 +1,191 @@
 ---
 layout: page
 ---
+<style>
+  .people-section {
+    margin-bottom: 2rem;
+  }
+
+  .people-section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .person-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 1.1rem;
+  }
+
+  .person-item--compact {
+    gap: 0.55rem;
+    margin-bottom: 0.45rem;
+    align-items: baseline;
+  }
+
+  .person-photo {
+    width: 90px;
+    min-width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+
+  .person-name-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    line-height: 1.2;
+    margin-bottom: 0.2rem;
+  }
+
+  .person-name {
+    font-size: 1.25rem;
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .person-name:hover {
+    text-decoration: underline;
+  }
+
+  .person-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 999px;
+    background: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+    text-decoration: none;
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+
+  .person-icon:hover {
+    color: var(--global-hover-text-color);
+    opacity: 0.9;
+    text-decoration: none;
+  }
+
+  .person-note {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+  }
+
+  .person-bio {
+    margin: 0;
+    line-height: 1.3;
+  }
+
+  .person-bio-inline {
+    color: var(--global-text-color-light);
+    font-size: 0.96rem;
+    margin-left: 0.35rem;
+    line-height: 1.2;
+  }
+
+  .person-empty {
+    color: var(--global-text-color-light);
+    margin: 0.25rem 0 0.5rem;
+  }
+
+  @media (max-width: 576px) {
+    .person-item {
+      gap: 0.75rem;
+    }
+
+    .person-photo {
+      width: 72px;
+      min-width: 72px;
+      height: 72px;
+      border-radius: 10px;
+    }
+
+    .person-name {
+      font-size: 1.1rem;
+    }
+
+    .person-item--compact .person-name {
+      font-size: 1rem;
+    }
+  }
+</style>
+
 <div class="post">
   <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
+    {% assign people_sections = site.data.people.sections %}
+    {% for section in people_sections %}
+      {% assign show_photo = false %}
+      {% if section.title == 'Faculty Members' or section.title == 'PhD Students' %}
+        {% assign show_photo = true %}
+      {% endif %}
+      <section class="people-section">
+        <h2>{{ section.title }}</h2>
+        {% if section.members and section.members.size > 0 %}
+          {% for member in section.members %}
+            <div class="person-item{% unless show_photo %} person-item--compact{% endunless %}">
+              {% if show_photo and member.image %}
+                {% assign image_path = member.image %}
+                {% if image_path contains '://' %}
+                  <img class="person-photo" src="{{ image_path }}" alt="{{ member.name }}">
+                {% elsif image_path contains '/' %}
+                  <img class="person-photo" src="{{ image_path | relative_url }}" alt="{{ member.name }}">
+                {% else %}
+                  <img class="person-photo" src="{{ '/assets/img/members/' | append: image_path | relative_url }}" alt="{{ member.name }}">
+                {% endif %}
+              {% elsif show_photo %}
+                <img class="person-photo" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="{{ member.name }}">
+              {% endif %}
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
-      {% endfor %}
-    {% endif %}
+              <div>
+                <div class="person-name-row">
+                  {% if member.website %}
+                    <a class="person-name" href="{{ member.website }}">{{ member.name }}</a>
+                  {% else %}
+                    <span class="person-name">{{ member.name }}</span>
+                  {% endif %}
+
+                  {% if member.website %}
+                    <a class="person-icon" href="{{ member.website }}" title="Website" aria-label="Website"><i class="fa-solid fa-house"></i></a>
+                  {% endif %}
+                  {% if member.scholar %}
+                    <a class="person-icon" href="{{ member.scholar }}" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                  {% endif %}
+                  {% if member.github %}
+                    <a class="person-icon" href="{{ member.github }}" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                  {% endif %}
+                  {% if member.twitter %}
+                    <a class="person-icon" href="{{ member.twitter }}" title="Twitter" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                  {% endif %}
+                  {% if member.linkedin %}
+                    <a class="person-icon" href="{{ member.linkedin }}" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                  {% endif %}
+                  {% if member.email %}
+                    <a class="person-icon" href="mailto:{{ member.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                  {% endif %}
+
+                  {% if member.note %}
+                    <span class="person-note">({{ member.note }})</span>
+                  {% endif %}
+                </div>
+
+                {% if member.bio %}
+                  {% if show_photo %}
+                    <p class="person-bio">{{ member.bio }}</p>
+                  {% else %}
+                    <span class="person-bio-inline">- {{ member.bio }}</span>
+                  {% endif %}
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p class="person-empty">No entries yet.</p>
+        {% endif %}
+      </section>
+    {% endfor %}
   </article>
 </div>

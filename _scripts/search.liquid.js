@@ -20,36 +20,17 @@ ninja.data = [
   {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
   {%- for p in sorted_pages -%}
     {%- if p.nav and p.autogen == null -%}
-      {%- if p.dropdown -%}
-        {%- for child in p.children -%}
-          {%- unless child.title == 'divider' -%}
-            {
-              {%- assign title = child.title | escape | strip -%}
-              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.permalink -%}{%- endif -%}
-              id: "dropdown-{{ title | slugify }}",
-              title: "{{ title | truncatewords: 13 }}",
-              description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "{{ url | relative_url }}";
-              },
-            },
-          {%- endunless -%}
-        {%- endfor -%}
-
-      {%- else -%}
-        {
-          {%- assign title = p.title | escape | strip -%}
-          {%- if p.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = p.url -%}{%- endif -%}
-          id: "nav-{{ title | slugify }}",
-          title: "{{ title | truncatewords: 13 }}",
-          description: "{{ p.description | strip_html | strip_newlines | escape | strip }}",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "{{ url | relative_url }}";
-          },
+      {
+        {%- assign title = p.title | escape | strip -%}
+        {%- if p.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = p.url -%}{%- endif -%}
+        id: "nav-{{ title | slugify }}",
+        title: "{{ title | truncatewords: 13 }}",
+        description: "{{ p.description | strip_html | strip_newlines | escape | strip }}",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "{{ url | relative_url }}";
         },
-      {%- endif -%}
+      },
     {%- endif -%}
   {%- endfor -%}
   {%- if site.posts_in_search -%}

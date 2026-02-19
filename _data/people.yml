@@ -1,0 +1,127 @@
+sections:
+  - title: Faculty Members
+    members:
+      - name: Qi Zhu
+        image: qizhu.jpg
+        website: "https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/zhu-qi.html"
+        email: "qzhu@northwestern.edu"
+        bio: Qi Zhu is a Professor in the Department of Electrical and Computer Engineering at Northwestern University.
+
+  - title: PhD Students
+    members:
+      - name: Anthony Goeckner
+        image: goeckner.jpg
+        website: "https://anthony.goeckner.org/"
+        email: "agoeckner@u.northwestern.edu"
+        bio: "Robotics, multi-agent systems, communications & networking, learning-enabled cyber-physical systems."
+      - name: Payal Mohapatra
+        image: pmohapatra.jpg
+        website: "https://www.payalmohapatra.me/"
+        email: "payal.mohapatra@northwestern.edu"
+        bio: "Human-centered machine learning, time-series, multimodal learning."
+      - name: Simon(Sinong) Zhan
+        image: simon.jpg
+        website: "https://simon-zhan.com/"
+        email: "SinongZhan2028@u.northwestern.edu"
+        bio: "Reinforcement Learning, Formal Methods, Embodied Agent."
+      - name: Xiangyu Shi
+        image: xiangyu.JPG
+        website: "https://jasonshiii.github.io/"
+        email: "xiangyushi2029@u.northwestern.edu"
+        bio: "LLM foundation model based embodied system."
+
+  - title: Master Students
+    members:
+      - name: Dante Bailey
+
+  - title: Undergraduate Students
+    members:
+      - name: Brooks Hu
+        email: "brookshu2026@u.northwestern.edu"
+      - name: Danah Ansari
+      - name: Eric Yang
+      - name: Ethan Foong
+      - name: Philip Wang
+      - name: Tia Rice
+
+  - title: PhD Alumni
+    members:
+      - name: Lixu Wang
+        website: "https://conditionwang.github.io/"
+        bio: Research Fellow at Nanyang Technological University (PhD 2024)
+      - name: Ruochen Jiao
+        website: "https://jrcblue.github.io/"
+        bio: Applied Scientist at Amazon (PhD 2024)
+      - name: Shichao Xu
+        website: "https://shichao.netlify.app/"
+        bio: Software Engineer at Google (PhD 2022)
+      - name: Shuyue Lan
+        linkedin: "https://www.linkedin.com/in/shuyuelan/"
+        bio: Software Engineer at NVIDIA (PhD 2021)
+      - name: Xiangguo Liu
+        website: "https://xiangguo95.github.io/main/index.html"
+        bio: Research Scientist at Meta (PhD 2023)
+      - name: Yixuan Wang
+        website: "https://wangyixu14.github.io/"
+        bio: Software Engineer at Aurora (PhD 2024)
+
+  - title: Other Alums
+    members:
+      - name: Aria Ruan
+        website: "https://ariar1225.github.io/"
+        bio: Test Hardware Controls Engineer at Tesla
+      - name: Bingqi Shang
+        website: "https://bio.bingqi-shang.com/"
+        bio: PhD student at MSU
+      - name: Chenxi Liu
+        website: "https://dawnliu35.github.io/"
+        bio: PhD student at UMD
+      - name: Devashri Naik
+        linkedin: "https://www.linkedin.com/in/devashri-naik"
+        bio: PhD Student at University of Illinois at Chicago
+      - name: Frank Yang
+        website: "https://yyf20001230.github.io/frank_yang/"
+        bio: Software Engineer at Scale.Ai
+      - name: Gyaan Antia
+      - name: Haijie Li
+      - name: Jinjin Cai
+        linkedin: "https://www.linkedin.com/in/jinjin-cai"
+        bio: PhD Student at Purdue University
+      - name: Justin Liu
+        bio: University of Southern California
+      - name: Nicolas Martinet
+        website: "https://nicolasmtnt.github.io/"
+        bio: Predoctoral Research Associate at INSEAD
+      - name: Ruiqi Xu
+        bio: PhD student at UChicago
+      - name: Samuel Hodge
+        website: "https://www.sam-hodge.com/"
+        bio: Motor Engineer at Milwaukee Tool
+      - name: Shamika Likhite
+        website: "https://shami09.github.io/portfolio/"
+        bio: Software Engineer at SpeechAce
+      - name: Shivi Shivistrava
+        bio: Controls Engineer at Merit Controls
+      - name: Shiyuan Duan
+        bio: PhD student at UIUC
+      - name: Sparsh Gautam
+        bio: Computer Vision Engineer at Tesla
+      - name: "Talia Ben-Naim"
+        website: "https://taliabn.github.io/portfolio/"
+        bio: Software Engineer at Medtronic
+      - name: Tianze Liu
+        bio: PhD Student at Michigan Technological University
+      - name: Vincent Rimparsurat
+        bio: Software Engineer at Epic Systems
+      - name: Weihe Gao
+      - name: Xiaoyuan Zhang
+        linkedin: "https://www.linkedin.com/in/XiaoyuanZhang-220944332"
+      - name: Xinliang Li
+        website: "https://peanutmy.github.io/P6/"
+        bio: PhD Student at University of Georgia
+      - name: Yueyuan Sui
+        website: "https://luckyms.github.io/"
+        bio: PhD Student at Northwestern University
+      - name: Yufei Wang
+        bio: PhD student at Northeastern
+      - name: Zinan Wang

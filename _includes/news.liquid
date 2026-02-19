@@ -1,27 +1,68 @@
 <div class="news">
   {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+    {% assign news = site.news | sort: 'date' | reverse %}
+    {% assign grouped_news = news | group_by_exp: 'item', "item.date | date: '%b %Y'" %}
+    {% assign grouped_news_size = grouped_news | size %}
     <div
       class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
+      {% if include.limit and page.announcements.scrollable and grouped_news_size > 3 %}
         style="max-height: 60vw"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
-          {% assign news_limit = news_size %}
+          {% assign news_limit = grouped_news_size %}
         {% endif %}
-        {% for item in news limit: news_limit %}
+        {% for group in grouped_news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ group.name }}</th>
             <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% if group.items.size > 1 %}
+                {% for item in group.items %}
+                  {% if item.inline %}
+                    {% assign news_text = item.content | remove: '<p>' | remove: '</p>' | emojify %}
+                    {% if news_text | slice: 0, 1 == '[' and news_text contains ']' %}
+                      {% assign news_tag = news_text | split: ']' | first | append: ']' %}
+                      {% assign news_rest = news_text | remove_first: news_tag %}
+                      <strong>{{ news_tag }}</strong>{{ news_rest }}
+                    {% else %}
+                      {{ news_text }}
+                    {% endif %}
+                  {% else %}
+                    {% assign news_title = item.title %}
+                    {% if news_title | slice: 0, 1 == '[' and news_title contains ']' %}
+                      {% assign news_tag = news_title | split: ']' | first | append: ']' %}
+                      {% assign news_rest = news_title | remove_first: news_tag %}
+                      <a class="news-title" href="{{ item.url | relative_url }}"><strong>{{ news_tag }}</strong>{{ news_rest }}</a>
+                    {% else %}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
+                  {% endif %}
+                  {% unless forloop.last %}<br>{% endunless %}
+                {% endfor %}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% assign item = group.items | first %}
+                {% if item.inline %}
+                  {% assign news_text = item.content | remove: '<p>' | remove: '</p>' | emojify %}
+                  {% if news_text | slice: 0, 1 == '[' and news_text contains ']' %}
+                    {% assign news_tag = news_text | split: ']' | first | append: ']' %}
+                    {% assign news_rest = news_text | remove_first: news_tag %}
+                    <strong>{{ news_tag }}</strong>{{ news_rest }}
+                  {% else %}
+                    {{ news_text }}
+                  {% endif %}
+                {% else %}
+                  {% assign news_title = item.title %}
+                  {% if news_title | slice: 0, 1 == '[' and news_title contains ']' %}
+                    {% assign news_tag = news_title | split: ']' | first | append: ']' %}
+                    {% assign news_rest = news_title | remove_first: news_tag %}
+                    <a class="news-title" href="{{ item.url | relative_url }}"><strong>{{ news_tag }}</strong>{{ news_rest }}</a>
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                {% endif %}
               {% endif %}
             </td>
           </tr>
