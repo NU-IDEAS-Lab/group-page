@@ -1254,6 +1254,8 @@
 
 @inproceedings{lanFFNetVideoFastForwarding2018,
   bibtex_show = {true},
+  abbr = {CVPR},
+  booktitle = {2018 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})},
   html = {https://openaccess.thecvf.com/content_cvpr_2018/html/Lan_FFNet_Video_Fast-Forwarding_CVPR_2018_paper.html},
   title = {{FFNet}: {Video} {Fast}-{Forwarding} via {Reinforcement} {Learning}},
   shorttitle = {{FFNet}},
@@ -2023,6 +2025,7 @@
 
 @inproceedings{mohapatra_missingness-resilient_2024,
   bibtex_show = {true},
+  abbr = {Interspeech},
   html = {https://www.isca-archive.org/interspeech_2024/mohapatra24_interspeech.html},
   title = {Missingness-resilient {Video}-enhanced {Multimodal} {Disfluency} {Detection}},
   url = {https://www.isca-archive.org/interspeech_2024/mohapatra24_interspeech.html},
@@ -2056,6 +2059,8 @@
 }
 
 @inproceedings{wang_split_2025,
+  abbr = {CVPR},
+  booktitle = {2025 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})},
   bibtex_show = {true},
   html = {https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Split_Adaptation_for_Pre-trained_Vision_Transformers_CVPR_2025_paper.html},
   title = {Split {Adaptation} for {Pre}-trained {Vision} {Transformers}},
@@ -2069,6 +2074,7 @@
 
 @article{mohapatra_wearable_2024,
   bibtex_show = {true},
+  abbr = {PNAS Nexus},
   html = {https://academic.oup.com/pnasnexus/article/doi/10.1093/pnasnexus/pgae421/7815440},
   title = {Wearable network for multilevel physical fatigue prediction in manufacturing workers},
   volume = {3},
@@ -2076,7 +2082,7 @@
   issn = {2752-6542},
   url = {https://academic.oup.com/pnasnexus/article/doi/10.1093/pnasnexus/pgae421/7815440},
   doi = {10.1093/pnasnexus/pgae421},
-  abstract = {Abstract
+  abstract = {
             Manufacturing workers face prolonged strenuous physical activities, impacting both financial aspects and their health due to work-related fatigue. Continuously monitoring physical fatigue and providing meaningful feedback is crucial to mitigating human and monetary losses in manufacturing workplaces. This study introduces a novel application of multimodal wearable sensors and machine learning techniques to quantify physical fatigue and tackle the challenges of real-time monitoring on the factory floor. Unlike past studies that view fatigue as a dichotomous variable, our central formulation revolves around the ability to predict multilevel fatigue, providing a more nuanced understanding of the subject’s physical state. Our multimodal sensing framework is designed for continuous monitoring of vital signs, including heart rate, heart rate variability, skin temperature, and more, as well as locomotive signs by employing inertial motion units strategically placed at six locations on the upper body. This comprehensive sensor placement allows us to capture detailed data from both the torso and arms, surpassing the capabilities of single-point data collection methods. We developed an innovative asymmetric loss function for our machine learning model, which enhances prediction accuracy for numerical fatigue levels and supports real-time inference. We collected data on 43 subjects following an authentic manufacturing protocol and logged their self-reported fatigue. Based on the analysis, we provide insights into our multilevel fatigue monitoring system and discuss results from an in-the-wild evaluation of actual operators on the factory floor. This study demonstrates our system’s practical applicability and contributes a valuable open-access database for future research.},
   language = {en},
   number = {10},
@@ -2089,21 +2095,26 @@
   pages = {pgae421},
 }
 
-@misc{mohapatra_can_2025,
-  bibtex_show = {true},
-  html = {http://arxiv.org/abs/2506.00304},
-  title = {Can {LLMs} {Understand} {Unvoiced} {Speech}? {Exploring} {EMG}-to-{Text} {Conversion} with {LLMs}},
-  shorttitle = {Can {LLMs} {Understand} {Unvoiced} {Speech}?},
-  url = {http://arxiv.org/abs/2506.00304},
-  doi = {10.48550/arXiv.2506.00304},
-  abstract = {Unvoiced electromyography (EMG) is an effective communication tool for individuals unable to produce vocal speech. However, most prior methods rely on paired voiced and unvoiced EMG signals, along with speech data, for EMG-to-text conversion, which is not practical for such individuals. Given the rise of large language models (LLMs) in speech recognition, we explore their potential to understand unvoiced speech. To this end, we address the challenge of learning from unvoiced EMG alone and propose a novel EMG adaptor module that maps EMG features into an LLM's input space, achieving an average word error rate (WER) of 0.49 on a closed-vocabulary unvoiced EMG-to-text task. Even with a conservative data availability of just six minutes, our approach improves performance over specialized models by nearly 20\%. While LLMs have been shown to be extendable to new language modalities -- such as audio -- understanding articulatory biosignals like unvoiced EMG remains more challenging. This work takes a crucial first step toward enabling LLMs to comprehend unvoiced speech using surface EMG.},
-  urldate = {2025-06-18},
-  publisher = {arXiv},
-  author = {Mohapatra, Payal and Pandey, Akash and Zhang, Xiaoyuan and Zhu, Qi},
-  month = may,
-  year = {2025},
-  note = {arXiv:2506.00304},
-  keywords = {Computer Science - Computation and Language},
+@inproceedings{mohapatra-etal-2025-llms,
+	bibtex_show = {true},
+	abbr = {ACL},
+    title = "Can {LLM}s Understand Unvoiced Speech? Exploring {EMG}-to-Text Conversion with {LLM}s",
+    author = "Mohapatra, Payal and Pandey, Akash and Zhang, Xiaoyuan  and Zhu, Qi",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-short.56/",
+    doi = "10.18653/v1/2025.acl-short.56",
+    pages = "703--712",
+    ISBN = "979-8-89176-252-7",
+    abstract = "Unvoiced electromyography (EMG) is an effective communication tool for individuals unable to produce vocal speech. However, most prior methods rely on paired voiced and unvoiced EMG signals, along with speech data, for unvoiced EMG-to-text conversion, which is not practical for these individuals. Given the rise of large language models (LLMs) in speech recognition, we explore their potential to understand unvoiced speech. To this end, we address the challenge of \textit{learning from unvoiced EMG alone} and propose a novel EMG adaptor module that maps EMG features to an LLM{'}s input space, achieving an average word error rate of 0.49 on a closed-vocabulary unvoiced EMG-to-text task. Even with a conservative data availability of just six minutes, our approach improves performance over specialized models by nearly 20{\%}. While LLMs have been shown to be extendable to new language modalities{---}such as audio{---}understanding articulatory biosignals, like unvoiced EMG, is more challenging. This work takes a crucial first step toward enabling LLMs to comprehend unvoiced speech using surface EMG.",
+	keywords = {Computer Science - Computation and Language},
 }
 
 @inproceedings{mohapatra_effect_2023,
@@ -2126,6 +2137,7 @@
 
 @article{karkaria_towards_2024,
   bibtex_show = {true},
+  abbr = {J. Manuf. Syst.},
   html = {https://www.sciencedirect.com/science/article/pii/S027861252400089X},
   title = {Towards a digital twin framework in additive manufacturing: {Machine} learning and bayesian optimization for time series process optimization},
   copyright = {All rights reserved},
@@ -2143,6 +2155,7 @@
 }
 
 @inproceedings{huang_invited_2024,
+  abbr = {DAC},
   bibtex_show = {true},
   html = {https://dl.acm.org/doi/10.1145/3649329.3664829},
   address = {New York, NY, USA},
@@ -2183,6 +2196,7 @@ code: https://github.com/NU-IDEAS-Lab/patrolling\_zoo},
 
 @article{goeckner_attrition-aware_2024,
   bibtex_show = {true},
+  abbr = {RA-L},
   html = {https://ieeexplore.ieee.org/document/10582411?source=authoralert},
   title = {Attrition-{Aware} {Adaptation} for {Multi}-{Agent} {Patrolling}},
   volume = {9},
