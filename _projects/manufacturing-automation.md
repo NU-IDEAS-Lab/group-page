@@ -1,7 +1,12 @@
-| layout | title | description | img | importance | category | giscus_comments |
-|--------|-------|------------|-----|------------|----------|-----------------|
-| page | Manufacturing Automation | | assets/img/project-placeholder.svg | 3 | Active Projects | true |
-
+---
+layout: page
+title: Manufacturing Automation
+description: 
+img: assets/img/project-placeholder.svg
+importance: 3
+category: Active Projects
+related_publications: true
+---
 This research develops learning-based methods for end-to-end manufacturing automation, connecting high-level design intent to executable fabrication processes. We study how foundation models can bridge CAD generation and CAM execution under geometric, physical, and process constraints, enabling structured and verifiable manufacturing pipelines.
 
 **CAD: STEP-LLM (DATE 2026).**  

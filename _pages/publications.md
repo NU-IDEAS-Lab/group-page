@@ -13,6 +13,49 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+{% if site.bib_search %}
+  <div id="year-filter-tags" class="year-filter-tags"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const container = document.getElementById("year-filter-tags");
+      if (!container) return;
+
+      const headings = Array.from(document.querySelectorAll("h2.bibliography"))
+        .filter((el) => /^\d{4}$/.test(el.textContent.trim()));
+
+      if (headings.length === 0) return;
+
+      const years = headings.map((el) => el.textContent.trim()).sort((a, b) => b - a);
+
+      function applyYearFilter(activeYear) {
+        headings.forEach((h2) => {
+          const year = h2.textContent.trim();
+          const ol = h2.nextElementSibling;
+          const hide = activeYear && year !== activeYear;
+          h2.classList.toggle("unloaded", hide);
+          if (ol) ol.classList.toggle("unloaded", hide);
+        });
+      }
+
+      let activeYear = null;
+
+      years.forEach((year) => {
+        const btn = document.createElement("button");
+        btn.textContent = year;
+        btn.className = "year-tag";
+        btn.addEventListener("click", function () {
+          const isActive = year === activeYear;
+          activeYear = isActive ? null : year;
+          container.querySelectorAll(".year-tag").forEach((b) => b.classList.remove("active"));
+          if (!isActive) btn.classList.add("active");
+          applyYearFilter(activeYear);
+        });
+        container.appendChild(btn);
+      });
+    });
+  </script>
+{% endif %}
+
 <div class="publications">
 
 {% bibliography %}

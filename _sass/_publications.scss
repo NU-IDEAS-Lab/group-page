@@ -4,6 +4,39 @@
 
 @use "variables" as v;
 
+.year-filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0 1.5rem;
+
+  .year-tag {
+    cursor: pointer;
+    padding: 0.2rem 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid var(--global-divider-color);
+    background: transparent;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    transition:
+      background 0.15s,
+      border-color 0.15s,
+      color 0.15s;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &.active {
+      background: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: #fff;
+    }
+  }
+}
+
 .publications {
   margin-top: 2rem;
 

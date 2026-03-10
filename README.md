@@ -15,7 +15,7 @@ Site URL: `http://localhost:8080`
 
 - `Publications` (`/publications/`)
   - Source page: `_pages/publications.md`
-  - Bibliography file: `_bibliography/publications.bib`
+  - Bibliography file: `_bibliography/papers.bib`
 - `Projects` (`/projects/`)
   - Source page: `_pages/projects.md`
   - Project entries: `_projects/*.md`
@@ -31,4 +31,4 @@ Site URL: `http://localhost:8080`
 
 - Template modules that were removed from this site include blog, CV, teaching, books, repositories, and dropdown submenu pages.
 - Examples of projects pages can be found in archive. 
-- When adding to `publications.bib`, remember to add abbr field so the article can be tagged. If you'd like to include a preview image or gif, use the preview field and put the asset under `assets/img/publication_preview`
+- When adding to `papers.bib`, remember to add abbr field so the article can be tagged. If you'd like to include a preview image or gif, use the preview field and put the asset under `assets/img/publication_preview`
