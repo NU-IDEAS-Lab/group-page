@@ -114,7 +114,12 @@ ninja.data = [{
           section: "News",},{id: "news-icml-2025-our-co-authored-paper-directly-forecasting-belief-for-reinforcement-learning-with-delays-is-accepted-by-the-42nd-international-conference-on-machine-learning-icml-the-work-is-in-collaboration-with-university-of-southampton-and-others",
           title: '[ICML 2025] Our co-authored paper “Directly Forecasting Belief for Reinforcement Learning with Delays”...',
           description: "",
-          section: "News",},{id: "projects-quietly-robust-multi-agent-systems",
+          section: "News",},{id: "projects-manufacturing-automation",
+          title: 'Manufacturing Automation',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/group-page/projects/manufacturing-automation/";
+            },},{id: "projects-quietly-robust-multi-agent-systems",
           title: 'Quietly Robust Multi-Agent Systems',
           description: "",
           section: "Projects",handler: () => {
@@ -129,35 +134,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%71%69.%7A%68%75@%6E%6F%72%74%68%77%65%73%74%65%72%6E.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/group-page/feed.xml", "_blank");
+          window.open("https://github.com/nu-ideas-lab", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=TN09YMcAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
