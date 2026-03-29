@@ -12,7 +12,7 @@ sections:
       - name: Anthony Goeckner
         image: goeckner.jpg
         website: "https://anthony.goeckner.org/"
-        email: "agoeckner@u.northwestern.edu"
+        email: "contact@anthony.goeckner.org"
         bio: "Robotics, multi-agent systems, communications & networking, learning-enabled cyber-physical systems."
       - name: Payal Mohapatra
         image: pmohapatra.jpg
