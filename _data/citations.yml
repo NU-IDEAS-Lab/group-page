@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-01'
 papers:
   TN09YMcAAAAJ:-R_Z4shfoosC:
     citations: 52
@@ -38,7 +38,7 @@ papers:
     title: 'Reglo: Provable neural network repair for global robustness properties'
     year: '2024'
   TN09YMcAAAAJ:1DdUqAzPfXgC:
-    citations: 6
+    citations: 7
     title: Efficient system verification with multiple weakly-hard constraints for runtime monitoring
     year: '2020'
   TN09YMcAAAAJ:1QLOHW2CHAAC:
@@ -70,7 +70,7 @@ papers:
     title: Learning representation for anomaly detection of vehicle trajectories
     year: '2023'
   TN09YMcAAAAJ:3Jzcn9274UAC:
-    citations: 48
+    citations: 49
     title: 'Towards fully intelligent transportation through infrastructure-vehicle cooperative autonomous driving: Challenges and opportunities'
     year: '2021'
   TN09YMcAAAAJ:3YIFwf-X_CwC:
@@ -246,7 +246,7 @@ papers:
     title: From passive demand response to proactive demand participation
     year: '2015'
   TN09YMcAAAAJ:FKzTm0Bp8ZYC:
-    citations: 441
+    citations: 442
     title: Addressing class imbalance in federated learning
     year: '2021'
   TN09YMcAAAAJ:Fla6ZGMkO9sC:
@@ -438,7 +438,7 @@ papers:
     title: Efficient Multi-Step Reinforcement Learning with Expectation-Maximization Bootstrapping
     year: Unknown Year
   TN09YMcAAAAJ:RVsengBWOnMC:
-    citations: 124
+    citations: 125
     title: 'Towards a digital twin framework in additive manufacturing: Machine learning and bayesian optimization for time series process optimization'
     year: '2024'
   TN09YMcAAAAJ:RYcK_YlVTxYC:
@@ -502,7 +502,7 @@ papers:
     title: Metro II Execution Semantics for Mapping
     year: '2008'
   TN09YMcAAAAJ:Uha2Xg-6WXIC:
-    citations: 2
+    citations: 3
     title: Semantic Feature Learning for Universal Unsupervised Cross-Domain Retrieval
     year: '2024'
   TN09YMcAAAAJ:Ui6Ig_dFDbcC:
@@ -526,7 +526,7 @@ papers:
     title: A Unified Framework for Rethinking Policy Divergence Measures in GRPO
     year: '2026'
   TN09YMcAAAAJ:VU60ks20i7sC:
-    citations: 0
+    citations: 1
     title: Activation Steering for LLM Alignment via a Unified ODE-Based Framework
     year: '2026'
   TN09YMcAAAAJ:VaXvl8Fpj5cC:
@@ -534,7 +534,7 @@ papers:
     title: Model-based synthesis for real-time embedded systems
     year: '2014'
   TN09YMcAAAAJ:VdWZULf8Gq0C:
-    citations: 0
+    citations: 2
     title: 'MAESTRO: Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series'
     year: '2025'
   TN09YMcAAAAJ:VfMbra648c4C:
@@ -558,7 +558,7 @@ papers:
     title: 'GoodSpread: Criticality-aware static scheduling of CPS with multi-QoS resources'
     year: '2020'
   TN09YMcAAAAJ:WMsFzbFqK_QC:
-    citations: 75
+    citations: 76
     title: On Large Language Model Continual Unlearning
     year: '2025'
   TN09YMcAAAAJ:WY6AygvC5sMC:
@@ -690,7 +690,7 @@ papers:
     title: Deep reinforcement learning for joint datacenter and HVAC load control in distributed mixed-use buildings
     year: '2019'
   TN09YMcAAAAJ:dtdq7L-L3iMC:
-    citations: 349
+    citations: 351
     title: Federated class-incremental learning
     year: '2022'
   TN09YMcAAAAJ:e3UXjaW_PBUC:
@@ -802,7 +802,7 @@ papers:
     title: Model-Enhanced Adversarial Inverse Reinforcement Learning with Model Estimation Reward Shaping in Stochastic Environments
     year: Unknown Year
   TN09YMcAAAAJ:mmBnJtEBTSAC:
-    citations: 1
+    citations: 2
     title: System verification and runtime monitoring with multiple weakly-hard constraints
     year: '2023'
   TN09YMcAAAAJ:mqGkWRiPAHEC:
@@ -945,6 +945,10 @@ papers:
     citations: 23
     title: 'Divide and slide: Layer-wise refinement for output range analysis of deep neural networks'
     year: '2020'
+  TN09YMcAAAAJ:zQyJfvL_HJsC:
+    citations: 0
+    title: 'ICPRL: Acquiring Physical Intuition from Interactive Control'
+    year: '2026'
   TN09YMcAAAAJ:zVd9Rc0DoukC:
     citations: 90
     title: A critical review of cyber-physical security for building automation systems
