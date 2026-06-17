@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-17'
 papers:
   TN09YMcAAAAJ:-R_Z4shfoosC:
-    citations: 55
+    citations: 56
     title: 'Know the unknowns: Addressing disturbances and uncertainties in autonomous systems'
     year: '2020'
   TN09YMcAAAAJ:-fj4grS0xi0C:
@@ -10,7 +10,7 @@ papers:
     title: Exploring weakly-hard paradigm for networked systems
     year: '2019'
   TN09YMcAAAAJ:-mAZECE-jN4C:
-    citations: 33
+    citations: 32
     title: Application level attacks on connected vehicle protocols
     year: '2019'
   TN09YMcAAAAJ:0KZCP5UExFUC:
@@ -18,7 +18,7 @@ papers:
     title: Network and system level security in connected vehicle applications
     year: '2018'
   TN09YMcAAAAJ:0UEtxawf5sEC:
-    citations: 5
+    citations: 6
     title: 'Software engineering for robotics: Future research directions; report from the 2023 workshop on software engineering for robotics'
     year: '2024'
   TN09YMcAAAAJ:0izLItjtcgwC:
@@ -34,7 +34,7 @@ papers:
     title: An optimal energy co-scheduling framework for smart buildings
     year: '2017'
   TN09YMcAAAAJ:10ZmGoIvuzkC:
-    citations: 20
+    citations: 21
     title: 'Reglo: Provable neural network repair for global robustness properties'
     year: '2024'
   TN09YMcAAAAJ:1DdUqAzPfXgC:
@@ -46,7 +46,7 @@ papers:
     title: Missingness-resilient video-enhanced multimodal disfluency detection
     year: '2024'
   TN09YMcAAAAJ:2VmNxfDIOWgC:
-    citations: 2
+    citations: 3
     title: Model-Based Software Synthesis for Safety-Critical Cyber-Physical Systems
     year: '2018'
   TN09YMcAAAAJ:2Zz6vCQtBj4C:
@@ -54,11 +54,11 @@ papers:
     title: Safety-assured speculative planning with adaptive prediction
     year: '2023'
   TN09YMcAAAAJ:2hfDYGh-f1UC:
-    citations: 41
+    citations: 44
     title: Graph neural network-based multi-agent reinforcement learning for resilient distributed coordination of multi-robot systems
     year: '2024'
   TN09YMcAAAAJ:2osOgNQ5qMEC:
-    citations: 113
+    citations: 114
     title: Definition of task allocation and priority assignment in hard real-time distributed systems
     year: '2007'
   TN09YMcAAAAJ:2tRrZ1ZAMYUC:
@@ -66,7 +66,7 @@ papers:
     title: Security analysis of proactive participation of smart buildings in smart grid
     year: '2015'
   TN09YMcAAAAJ:3ERjdSgnfPsC:
-    citations: 24
+    citations: 28
     title: Learning representation for anomaly detection of vehicle trajectories
     year: '2023'
   TN09YMcAAAAJ:3Jzcn9274UAC:
@@ -78,7 +78,7 @@ papers:
     title: Split Adaptation for Pre-trained Vision Transformers
     year: '2025'
   TN09YMcAAAAJ:4X0JR2_MtJMC:
-    citations: 87
+    citations: 88
     title: Proactive demand participation of smart buildings in smart grid
     year: '2015'
   TN09YMcAAAAJ:53uzXsUip0wC:
@@ -86,7 +86,7 @@ papers:
     title: Opportunistic intermittent control with safety guarantees for autonomous systems
     year: '2020'
   TN09YMcAAAAJ:5Hlrm_bZEgcC:
-    citations: 35
+    citations: 36
     title: 'Design-while-verify: correct-by-construction control learning with verification in the loop'
     year: '2022'
   TN09YMcAAAAJ:5nxA0vEk-isC:
@@ -114,7 +114,7 @@ papers:
     title: Boosting reinforcement learning with strongly delayed feedback through auxiliary short delays
     year: '2024'
   TN09YMcAAAAJ:84Dmd_oSKgsC:
-    citations: 22
+    citations: 23
     title: 'Saw: A tool for safety analysis of weakly-hard systems'
     year: '2020'
   TN09YMcAAAAJ:8Fucociq1QoC:
@@ -122,7 +122,7 @@ papers:
     title: Emulation and detection of physical faults and cyber-attacks on building energy systems through real-time hardware-in-the-loop experiments
     year: '2024'
   TN09YMcAAAAJ:8LfMcXwVQboC:
-    citations: 11
+    citations: 12
     title: 'Intelligent and connected cyber-physical systems: A perspective from connected autonomous vehicles'
     year: '2020'
   TN09YMcAAAAJ:8NHCvSvNRCIC:
@@ -134,7 +134,7 @@ papers:
     title: A safety-guaranteed framework for neural-network-based planners in connected vehicles under communication disturbance
     year: '2023'
   TN09YMcAAAAJ:8VbLR7ExW8oC:
-    citations: 11
+    citations: 12
     title: 'Containerized framework for building control performance comparisons: model predictive control vs deep reinforcement learning control'
     year: '2021'
   TN09YMcAAAAJ:8igAKu_hPxwC:
@@ -158,7 +158,7 @@ papers:
     title: Partitioning and selection of data consistency mechanisms for multicore real-time systems
     year: '2019'
   TN09YMcAAAAJ:9hNLEifDsrsC:
-    citations: 46
+    citations: 47
     title: Formal verification of weakly-hard systems
     year: '2019'
   TN09YMcAAAAJ:9i1gB6tY3MIC:
@@ -186,7 +186,7 @@ papers:
     title: Leveraging weakly-hard constraints for improving system fault tolerance with functional and timing guarantees
     year: '2020'
   TN09YMcAAAAJ:A_-8YG8SPFQC:
-    citations: 22
+    citations: 24
     title: Dsrc & c-v2x comparison for connected and automated vehicles in different traffic scenarios
     year: '2022'
   TN09YMcAAAAJ:AdUz3-SiDfgC:
@@ -198,7 +198,7 @@ papers:
     title: Phase-Driven Domain Generalizable Learning For Nonstationary Time Series Classification
     year: Unknown Year
   TN09YMcAAAAJ:BqipwSGYUEgC:
-    citations: 64
+    citations: 65
     title: Co-design of control algorithm and embedded platform for building hvac systems
     year: '2013'
   TN09YMcAAAAJ:CHSYGLWDkRkC:
@@ -250,7 +250,7 @@ papers:
     title: From passive demand response to proactive demand participation
     year: '2015'
   TN09YMcAAAAJ:FKzTm0Bp8ZYC:
-    citations: 460
+    citations: 470
     title: Addressing class imbalance in federated learning
     year: '2021'
   TN09YMcAAAAJ:Fla6ZGMkO9sC:
@@ -270,7 +270,7 @@ papers:
     title: 'Guest Editorial: Special Section: Safety-Critical Cyber Physical Systems'
     year: '2017'
   TN09YMcAAAAJ:GsgvGxwuA5UC:
-    citations: 13
+    citations: 15
     title: Kinematics-aware trajectory generation and prediction with latent stochastic differential modeling
     year: '2024'
   TN09YMcAAAAJ:H3xT48m3F74C:
@@ -326,7 +326,7 @@ papers:
     title: 'FedNovel: Federated Novel Class Learning'
     year: Unknown Year
   TN09YMcAAAAJ:KKhxhHPhcTsC:
-    citations: 12
+    citations: 13
     title: 'Maskplus: Improving mask generation for instance segmentation'
     year: '2020'
   TN09YMcAAAAJ:K_uVUG1YJAoC:
@@ -338,7 +338,7 @@ papers:
     title: Attrition-aware adaptation for multi-agent patrolling
     year: '2024'
   TN09YMcAAAAJ:LAaCg2gyLagC:
-    citations: 51
+    citations: 53
     title: Design and analysis of delay-tolerant intelligent intersection management
     year: '2019'
   TN09YMcAAAAJ:LSkeIYDkhQYC:
@@ -346,7 +346,7 @@ papers:
     title: Physics-aware safety-assured design of hierarchical neural network based planner
     year: '2022'
   TN09YMcAAAAJ:LWUVeqegjeYC:
-    citations: 21
+    citations: 22
     title: Accelerate online reinforcement learning for building hvac control with heterogeneous expert guidances
     year: '2022'
   TN09YMcAAAAJ:LkGwnXOMwfcC:
@@ -354,7 +354,7 @@ papers:
     title: A formal approach for optimizing mapping in system level design
     year: '2008'
   TN09YMcAAAAJ:LoiWQfKZB3kC:
-    citations: 22
+    citations: 23
     title: Safety-driven interactive planning for neural network-based lane changing
     year: '2023'
   TN09YMcAAAAJ:M8Ejg5y-C14C:
@@ -362,7 +362,7 @@ papers:
     title: 'CVGuard: Mitigating application attacks on connected vehicles'
     year: '2022'
   TN09YMcAAAAJ:MIZpzCdxGj0C:
-    citations: 102
+    citations: 101
     title: Eavesdrop the composition proportion of training labels in federated learning
     year: '2019'
   TN09YMcAAAAJ:MXK_kJrjxJIC:
@@ -374,7 +374,7 @@ papers:
     title: 'EmboAlign: Aligning Video Generation with Compositional Constraints for Zero-Shot Manipulation'
     year: '2026'
   TN09YMcAAAAJ:NNXJ2mIwlScC:
-    citations: 260
+    citations: 261
     title: 'Reachnn: Reachability analysis of neural-network controlled systems'
     year: '2019'
   TN09YMcAAAAJ:NzUpm4bhSXQC:
@@ -406,7 +406,7 @@ papers:
     title: Optimal Co-Scheduling of HVAC Control and Battery Managementfor Energy-Efficient Buildings Considering State-of-HealthDegradation
     year: '2016'
   TN09YMcAAAAJ:PBZ9sWDp-nEC:
-    citations: 40
+    citations: 41
     title: Open Vocabulary Multi-Label Classification with Dual-Modal Decoder on Aligned Visual-Textual Features
     year: '2022'
   TN09YMcAAAAJ:PXxrOWvQdDgC:
@@ -442,7 +442,7 @@ papers:
     title: Efficient Multi-Step Reinforcement Learning with Expectation-Maximization Bootstrapping
     year: Unknown Year
   TN09YMcAAAAJ:RVsengBWOnMC:
-    citations: 145
+    citations: 159
     title: 'Towards a digital twin framework in additive manufacturing: Machine learning and bayesian optimization for time series process optimization'
     year: '2024'
   TN09YMcAAAAJ:RYcK_YlVTxYC:
@@ -450,7 +450,7 @@ papers:
     title: Robust and extensible task implementations of synchronous finite state machines
     year: '2013'
   TN09YMcAAAAJ:SDNreWq1RjYC:
-    citations: 7
+    citations: 8
     title: Can LLMs Understand Unvoiced Speech? Exploring EMG-to-Text Conversion with LLMs
     year: '2025'
   TN09YMcAAAAJ:SGnGYi2HwEIC:
@@ -470,11 +470,11 @@ papers:
     title: Minimizing stack and communication memory usage in real-time embedded applications
     year: '2014'
   TN09YMcAAAAJ:Sipo1f_CKiIC:
-    citations: 6
+    citations: 7
     title: Federated continual novel class learning
     year: '2023'
   TN09YMcAAAAJ:Sx7WuSFExYwC:
-    citations: 58
+    citations: 62
     title: Can We Trust Embodied Agents? Exploring Backdoor Attacks against Embodied LLM-based Decision-Making Systems
     year: '2025'
   TN09YMcAAAAJ:T_m5ky3rny8C:
@@ -490,7 +490,7 @@ papers:
     title: Efficient octilinear Steiner tree construction based on spanning graphs
     year: '2004'
   TN09YMcAAAAJ:U6twwk6Vgq8C:
-    citations: 45
+    citations: 48
     title: 'Deja vu: Continual model generalization for unseen domains'
     year: '2023'
   TN09YMcAAAAJ:UBnQDr5gPskC:
@@ -530,7 +530,7 @@ papers:
     title: A Unified Framework for Rethinking Policy Divergence Measures in GRPO
     year: '2026'
   TN09YMcAAAAJ:VU60ks20i7sC:
-    citations: 2
+    citations: 6
     title: Activation Steering for LLM Alignment via a Unified ODE-Based Framework
     year: '2026'
   TN09YMcAAAAJ:VaXvl8Fpj5cC:
@@ -546,7 +546,7 @@ papers:
     title: 'Supplementary Material: Semi-supervised Semantics-guided Adversarial Training for Robust Trajectory Prediction'
     year: Unknown Year
   TN09YMcAAAAJ:W2VW_RKN1OwC:
-    citations: 785
+    citations: 799
     title: Deep reinforcement learning for building HVAC control
     year: '2017'
   TN09YMcAAAAJ:W7OEmFMy1HYC:
@@ -558,11 +558,11 @@ papers:
     title: A semantic-driven synthesis flow for platform-based design
     year: '2006'
   TN09YMcAAAAJ:WIVIxizkzXoC:
-    citations: 31
+    citations: 34
     title: 'GoodSpread: Criticality-aware static scheduling of CPS with multi-QoS resources'
     year: '2020'
   TN09YMcAAAAJ:WMsFzbFqK_QC:
-    citations: 86
+    citations: 90
     title: On Large Language Model Continual Unlearning
     year: '2025'
   TN09YMcAAAAJ:WY6AygvC5sMC:
@@ -570,7 +570,7 @@ papers:
     title: 'Brief Industry Paper: An Infrastructure-Aided High Definition Map Data Provisioning Service for Autonomous Driving'
     year: '2021'
   TN09YMcAAAAJ:XX7pGhTe5MgC:
-    citations: 46
+    citations: 47
     title: Semi-supervised semantics-guided adversarial training for robust trajectory prediction
     year: '2023'
   TN09YMcAAAAJ:Xc-mKOjpdrwC:
@@ -590,7 +590,7 @@ papers:
     title: Optimization of task allocation and priority assignment in hard real-time distributed systems
     year: '2013'
   TN09YMcAAAAJ:YK4ucWkmU_UC:
-    citations: 218
+    citations: 222
     title: 'Design automation of cyber-physical systems: Challenges, advances, and opportunities'
     year: '2016'
   TN09YMcAAAAJ:YsMSGLbcyi4C:
@@ -606,7 +606,7 @@ papers:
     title: 'Ffnet: Video fast-forwarding via reinforcement learning'
     year: '2018'
   TN09YMcAAAAJ:ZuSUVyMx-TgC:
-    citations: 131
+    citations: 133
     title: "Automotive cyber\u2013physical systems: A tutorial introduction"
     year: '2016'
   TN09YMcAAAAJ:ZzlSgRqYykMC:
@@ -630,7 +630,7 @@ papers:
     title: Optimal control of PEVs for energy cost minimization and frequency regulation in the smart grid accounting for battery state-of-health degradation
     year: '2015'
   TN09YMcAAAAJ:_V0JUKP8578C:
-    citations: 31
+    citations: 34
     title: Security-driven codesign with weakly-hard constraints for real-time embedded systems
     year: '2019'
   TN09YMcAAAAJ:_wawhP5Vwy0C:
@@ -642,7 +642,7 @@ papers:
     title: 'CONVINCE: A cross-layer modeling, exploration and validation framework for next-generation connected vehicles'
     year: '2016'
   TN09YMcAAAAJ:aXQ7jtEqGowC:
-    citations: 5
+    citations: 7
     title: Co-designing intelligent control of building HVACs and microgrids
     year: '2021'
   TN09YMcAAAAJ:afsF9h1fxg0C:
@@ -650,15 +650,15 @@ papers:
     title: 'Reachnn*: A tool for reachability analysis of neural-network controlled systems'
     year: '2020'
   TN09YMcAAAAJ:b1wdh0AR-JQC:
-    citations: 60
+    citations: 59
     title: Security-aware modeling and efficient mapping for CAN-based real-time distributed automotive systems
     year: '2014'
   TN09YMcAAAAJ:bQkGhl1z2hUC:
-    citations: 17
+    citations: 18
     title: Model-based and data-driven approaches for building automation and control
     year: '2018'
   TN09YMcAAAAJ:bzhzIcV5SW4C:
-    citations: 18
+    citations: 19
     title: 'Impact of sharing driving attitude information: A quantitative study on lane changing'
     year: '2020'
   TN09YMcAAAAJ:cnT3a81PI4sC:
@@ -674,7 +674,7 @@ papers:
     title: 'Federated learning with new knowledge: Fundamentals, advances, and futures'
     year: '2024'
   TN09YMcAAAAJ:d1gkVwhDpl0C:
-    citations: 249
+    citations: 251
     title: Period optimization for hard real-time distributed automotive systems
     year: '2007'
   TN09YMcAAAAJ:d4paSpBSrDQC:
@@ -682,7 +682,7 @@ papers:
     title: Cross-layer codesign for secure cyber-physical systems
     year: '2016'
   TN09YMcAAAAJ:dXBh7-90p_YC:
-    citations: 3
+    citations: 4
     title: 'STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models'
     year: '2026'
   TN09YMcAAAAJ:de6HPdfwrHoC:
@@ -690,11 +690,11 @@ papers:
     title: A tool for neural network global robustness certification and training
     year: '2022'
   TN09YMcAAAAJ:dpaHy1TF288C:
-    citations: 75
+    citations: 76
     title: Deep reinforcement learning for joint datacenter and HVAC load control in distributed mixed-use buildings
     year: '2019'
   TN09YMcAAAAJ:dtdq7L-L3iMC:
-    citations: 372
+    citations: 378
     title: Federated class-incremental learning
     year: '2022'
   TN09YMcAAAAJ:e3UXjaW_PBUC:
@@ -710,7 +710,7 @@ papers:
     title: 'Jpeg encoding on the intel mxp5800: A platform-based design case study'
     year: '2005'
   TN09YMcAAAAJ:eTOb990cMygC:
-    citations: 115
+    citations: 118
     title: 'One for many: Transfer learning for building hvac control'
     year: '2020'
   TN09YMcAAAAJ:eiwtZcG9oBcC:
@@ -726,7 +726,7 @@ papers:
     title: 'Tae: A semi-supervised controllable behavior-aware trajectory generator and predictor'
     year: '2022'
   TN09YMcAAAAJ:flnLHN-H2asC:
-    citations: 3
+    citations: 4
     title: Enhancing Inverse Reinforcement Learning through Encoding Dynamic Information in Reward Shaping
     year: '2026'
   TN09YMcAAAAJ:fveVehIkgekC:
@@ -734,23 +734,23 @@ papers:
     title: 'Deep reinforcement learning: Framework, applications, and embedded implementations'
     year: '2017'
   TN09YMcAAAAJ:gNsIjQZ6FscC:
-    citations: 37
+    citations: 38
     title: 'Polar-express: Efficient and precise formal reachability analysis of neural-network controlled systems'
     year: '2023'
   TN09YMcAAAAJ:gmhHX4scLhsC:
-    citations: 107
+    citations: 111
     title: 'Enforcing hard constraints with soft barriers: Safe reinforcement learning in unknown stochastic environments'
     year: '2023'
   TN09YMcAAAAJ:gqMmJtG4vxUC:
-    citations: 36
+    citations: 37
     title: How good are learning-based control vs model-based control for load shifting? Investigations on a single zone building energy system
     year: '2023'
   TN09YMcAAAAJ:h-fwNd0rmTkC:
-    citations: 0
+    citations: 1
     title: 'Tutorial: Design Automation for ML-enabled Cyber-Physical Systems: From Verification to Synthesis'
     year: '2025'
   TN09YMcAAAAJ:h7-KW5G1enMC:
-    citations: 96
+    citations: 97
     title: 'POLAR: A polynomial arithmetic framework for verifying neural-network controlled systems'
     year: '2022'
   TN09YMcAAAAJ:hMsQuOkrut0C:
@@ -778,7 +778,7 @@ papers:
     title: Securing connected vehicle applications with an efficient dual cyber-physical blockchain framework
     year: '2021'
   TN09YMcAAAAJ:kAoMiUvgv_QC:
-    citations: 24
+    citations: 25
     title: Efficient and assured reinforcement learning-based building HVAC control with heterogeneous expert-guided training
     year: '2025'
   TN09YMcAAAAJ:ktX0m338QuYC:
@@ -794,7 +794,7 @@ papers:
     title: 'Wip: End-to-end analysis of adversarial attacks to automated lane centering systems'
     year: '2021'
   TN09YMcAAAAJ:lg5bARUibhcC:
-    citations: 1
+    citations: 2
     title: Safety-Assured Design and Adaptation of Connected and Autonomous Vehicles
     year: '2023'
   TN09YMcAAAAJ:lvi_KyGYEDoC:
@@ -838,7 +838,7 @@ papers:
     title: Guest editorial machine learning for resilient industrial cyber-physical systems
     year: '2023'
   TN09YMcAAAAJ:q2Dn1KgioksC:
-    citations: 24
+    citations: 25
     title: Learning-based framework for sensor fault-tolerant building HVAC control with model-assisted learning
     year: '2021'
   TN09YMcAAAAJ:qNJvDq80yDAC:
@@ -846,11 +846,11 @@ papers:
     title: Addressing extensibility and fault tolerance in can-based automotive systems
     year: '2017'
   TN09YMcAAAAJ:qVBRRHSSJ04C:
-    citations: 6
+    citations: 7
     title: Comparison study of high-performance rule-based hvac control with deep reinforcement learning-based control in a multi-zone vav system
     year: '2022'
   TN09YMcAAAAJ:qjMakFHDy7sC:
-    citations: 75
+    citations: 76
     title: Optimizing the software architecture for extensibility in hard real-time distributed systems
     year: '2010'
   TN09YMcAAAAJ:qjuL_XCUnM8C:
@@ -858,7 +858,7 @@ papers:
     title: Analysis of production data manipulation attacks in petroleum cyber-physical systems
     year: '2016'
   TN09YMcAAAAJ:r7mTg6vxT4gC:
-    citations: 20
+    citations: 23
     title: Bounding perception neural network uncertainty for safe control of autonomous systems
     year: '2021'
   TN09YMcAAAAJ:rKOGDx9nJ1EC:
@@ -894,7 +894,7 @@ papers:
     title: Battery management and application for energy-efficient buildings
     year: '2014'
   TN09YMcAAAAJ:u-x6o8ySG0sC:
-    citations: 157
+    citations: 158
     title: A next-generation design framework for platform-based design
     year: '2007'
   TN09YMcAAAAJ:u5HHmVD_uO8C:
@@ -906,7 +906,7 @@ papers:
     title: Credibility enhanced temporal graph convolutional network based sybil attack detection on edge computing servers
     year: '2021'
   TN09YMcAAAAJ:uQrt9rju91QC:
-    citations: 8
+    citations: 9
     title: Phase-driven domain generalizable learning for nonstationary time series
     year: '2024'
   TN09YMcAAAAJ:uSQurnFbQXsC:
@@ -950,7 +950,7 @@ papers:
     title: 'Divide and slide: Layer-wise refinement for output range analysis of deep neural networks'
     year: '2020'
   TN09YMcAAAAJ:zVd9Rc0DoukC:
-    citations: 97
+    citations: 100
     title: A critical review of cyber-physical security for building automation systems
     year: '2023'
   TN09YMcAAAAJ:zYLM7Y9cAGgC:
