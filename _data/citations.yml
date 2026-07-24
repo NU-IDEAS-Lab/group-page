@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-24'
 papers:
   TN09YMcAAAAJ:-R_Z4shfoosC:
     citations: 57
@@ -54,7 +54,7 @@ papers:
     title: Safety-assured speculative planning with adaptive prediction
     year: '2023'
   TN09YMcAAAAJ:2hfDYGh-f1UC:
-    citations: 52
+    citations: 53
     title: Graph neural network-based multi-agent reinforcement learning for resilient distributed coordination of multi-robot systems
     year: '2024'
   TN09YMcAAAAJ:2osOgNQ5qMEC:
