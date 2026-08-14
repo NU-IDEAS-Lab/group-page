@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-14'
 papers:
   TN09YMcAAAAJ:-R_Z4shfoosC:
     citations: 57
@@ -70,7 +70,7 @@ papers:
     title: Learning representation for anomaly detection of vehicle trajectories
     year: '2023'
   TN09YMcAAAAJ:3Jzcn9274UAC:
-    citations: 50
+    citations: 51
     title: 'Towards fully intelligent transportation through infrastructure-vehicle cooperative autonomous driving: Challenges and opportunities'
     year: '2021'
   TN09YMcAAAAJ:3YIFwf-X_CwC:
@@ -370,7 +370,7 @@ papers:
     title: 'CVGuard: Mitigating application attacks on connected vehicles'
     year: '2022'
   TN09YMcAAAAJ:MIZpzCdxGj0C:
-    citations: 99
+    citations: 100
     title: Eavesdrop the composition proportion of training labels in federated learning
     year: '2019'
   TN09YMcAAAAJ:MKvDIwB-zewC:
@@ -558,7 +558,7 @@ papers:
     title: 'Supplementary Material: Semi-supervised Semantics-guided Adversarial Training for Robust Trajectory Prediction'
     year: Unknown Year
   TN09YMcAAAAJ:W2VW_RKN1OwC:
-    citations: 831
+    citations: 832
     title: Deep reinforcement learning for building HVAC control
     year: '2017'
   TN09YMcAAAAJ:W7OEmFMy1HYC:
@@ -658,7 +658,7 @@ papers:
     title: Co-designing intelligent control of building HVACs and microgrids
     year: '2021'
   TN09YMcAAAAJ:afsF9h1fxg0C:
-    citations: 129
+    citations: 128
     title: 'Reachnn*: A tool for reachability analysis of neural-network controlled systems'
     year: '2020'
   TN09YMcAAAAJ:b1wdh0AR-JQC:
